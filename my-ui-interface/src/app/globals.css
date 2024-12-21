@@ -40,3 +40,55 @@ a {
     color-scheme: dark;
   }
 }
+
+/* style card*/
+ .custom-card-content1 {
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+}
+.custom-card-content1 .ant-card-head{
+  background-color: #6ad8b3;
+  color: #ffffff;
+
+  /* height: 100vh; 
+  display: flex;
+  flex-direction: column;  */
+}
+.custom-card-content2 .ant-card-head{
+  background-color: #6ad8b3;
+  color: #ffffff;
+}
+.custom-card-content3 .ant-card-head{
+  background-color: #6ad8b3;
+  color: #ffffff;
+}
+ /* .custom-card-content1 .ant-card-body {
+  background-color: #ade6f0;
+  color: #ffffff;
+
+  height: 100vh;
+  flex-grow: 1; 
+  overflow-y: auto; 
+ } */
+
+.custom-card-content1 .ant-card-body {
+  flex-grow: 1; /* Make the body take the remaining space */
+  overflow-y: auto; /* Enable scrolling if the content exceeds the available height */
+  background-color: #ade6f0; /* Background color for the content */
+  color: #ffffff; /* Text color */
+}
+
+ .custom-card-content2 .ant-card-body {
+  background-color: #ade6f0;
+  color: #ffffff;
+ }
+
+ .custom-card-content3 .ant-card-body {
+  background-color: #aaeeaa;
+  color: #ffffff;
+ }
+ .custom-card-card1 .ant-card-body {
+  background-color: #f7f8f7;
+  color: #ffffff;
+ }

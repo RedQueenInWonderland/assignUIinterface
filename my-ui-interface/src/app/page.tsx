@@ -161,7 +161,7 @@ export default function Home() {
                         {/* <Mainpage width="100%"/> */}
                         <Mainpage/>
                     </Sider>
-                    <Content style={contentStyle}>Content
+                    <Content style={contentStyle}>
                         <Beside/>
                         <ModalJa/>
 
