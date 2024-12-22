@@ -1,2 +1,3 @@
 # assignUIinterface
-For Test
+npm i
+npm run dev

@@ -42,53 +42,96 @@ a {
 }
 
 /* style card*/
- .custom-card-content1 {
-  height: 100vh; /* Full viewport height */
+.custom-card-content1 {
+  height: 80vh;
   display: flex;
   flex-direction: column;
 }
-.custom-card-content1 .ant-card-head{
-  background-color: #6ad8b3;
-  color: #ffffff;
 
-  /* height: 100vh; 
+.custom-card-content2 {
+  height: 80vh;
   display: flex;
-  flex-direction: column;  */
+  flex-direction: column;
 }
-.custom-card-content2 .ant-card-head{
+
+.custom-card-content3 {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-card-content1 .ant-card-head {
   background-color: #6ad8b3;
   color: #ffffff;
 }
-.custom-card-content3 .ant-card-head{
+
+.custom-card-content2 .ant-card-head {
   background-color: #6ad8b3;
-  color: #ffffff;
-}
- /* .custom-card-content1 .ant-card-body {
-  background-color: #ade6f0;
   color: #ffffff;
 
-  height: 100vh;
-  flex-grow: 1; 
-  overflow-y: auto; 
- } */
+}
+
+.custom-card-content3 .ant-card-head {
+  background-color: #6ad8b3;
+  color: #ffffff;
+}
 
 .custom-card-content1 .ant-card-body {
-  flex-grow: 1; /* Make the body take the remaining space */
-  overflow-y: auto; /* Enable scrolling if the content exceeds the available height */
-  background-color: #ade6f0; /* Background color for the content */
-  color: #ffffff; /* Text color */
-}
-
- .custom-card-content2 .ant-card-body {
+  flex-grow: 1;
+  overflow-y: auto;
   background-color: #ade6f0;
   color: #ffffff;
- }
+}
 
- .custom-card-content3 .ant-card-body {
+.custom-card-content2 .ant-card-body {
+  flex-grow: 1;
+  overflow-y: auto;
+  background-color: #ade6f0;
+  color: #ffffff;
+}
+
+.custom-card-content3 .ant-card-body {
+  flex-grow: 1;
+  overflow-y: auto;
   background-color: #aaeeaa;
   color: #ffffff;
- }
- .custom-card-card1 .ant-card-body {
+
+}
+
+.custom-card-card1 .ant-card-body {
   background-color: #f7f8f7;
   color: #ffffff;
- }
+}
+
+/* table */
+
+.custom-table .ant-table {
+  border-spacing: 3em;
+  border-collapse: separate;
+}
+
+.custom-table .odd-row {
+  background-color: #f7f9fc;
+}
+
+.custom-table .even-row {
+  background-color: #ffffff;
+}
+
+.custom-table .details-cell {
+  transition: all 0.3s ease;
+  text-align: center;
+  font-size: 1em;
+  line-height: 30px;
+  height: 30px;
+}
+
+.custom-table .details-cell.hovered {
+  transform: scale(1.1);
+  z-index: 10;
+  font-size: 1.2em;
+  line-height: 60px;
+  height: 60px;
+  background-color: #f0f5ff;
+  box-shadow: 0 4px 8px rgba(90, 90, 90, 0.2);
+}
